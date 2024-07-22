@@ -200,6 +200,7 @@ class TreemapTile {
   Offset? _offset;
 
   /// Size of the squarified tile.
+  Size? get size => _size;
   Size? _size;
 
   /// Size of the respected tile's label builder which is used to position the
